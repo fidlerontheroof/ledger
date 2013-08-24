@@ -46,7 +46,7 @@ a small {
 }
 
 .wrapper {
-  width:860px;
+  width:1000px;
   margin:0 auto;
 }
 
@@ -60,7 +60,7 @@ blockquote {
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   color:#333;
-  font-size:12px;
+  font-size:.6em;
 }
 
 pre {
@@ -95,10 +95,9 @@ img {
   max-width:100%;
 }
 
-header {
-  width:270px;
+.header {
+  width:230px;
   float:left;
-  position:fixed;
 }
 
 header ul {
@@ -138,6 +137,27 @@ header ul a {
   height:40px;
 }
 
+section.projects {
+    font-weight: 100;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #999999;
+}
+section.projects a {
+    color: inherit;
+}
+section.projects strong {
+    color: #444242;
+}
+section.projects dfn {
+    color: #5C5959;
+}
+section.projects li, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 strong {
   color:#222;
   font-weight:700;
@@ -160,8 +180,10 @@ header ul a strong {
 }
 
 section {
-  width:500px;
-  float:right;
+  width:350px;
+  height: 600px;
+  margin-right:0px;
+  float:left;
   padding-bottom:50px;
 }
 
