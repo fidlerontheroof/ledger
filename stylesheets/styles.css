@@ -95,9 +95,9 @@ img {
   max-width:100%;
 }
 
-.header {
-  width:230px;
-  min-width:230px;
+section.header {
+  width: 180px;
+  min-width: 180px;
   float:left;
 }
 
@@ -139,6 +139,7 @@ header ul a {
 }
 
 section.projects {
+    width: 400px;
     font-weight: 100;
     color: #999999;
 }
