@@ -63,14 +63,15 @@ code, pre {
   font-size:.6em;
 }
 
-pre {
-  padding:8px 15px;
-  background: #f8f8f8;  
-  border-radius:5px;
-  border:1px solid #e5e5e5;
-  overflow-x: auto;
+pre.publickey {
+	padding:0px;
+	border-radius:5px;
+	overflow-x: auto;
+	padding: 2px;
+	font-size: .35em;
+	padding-top: -2em;
+/* 	display: none; */
 }
-
 table {
   width:100%;
   border-collapse:collapse;
@@ -96,11 +97,39 @@ img {
 }
 
 section.header {
-  width: 180px;
-  min-width: 180px;
-  float:left;
+	width: 180px;
+	min-width: 180px;
+	max-width: 90%;
+	float:left;
 }
-
+section.cv strong {
+	font-weight: normal;
+	color: #555;
+}
+section.projects {
+    width: 400px;
+    font-weight: 100;
+    color: #999999;
+}
+section.projects a, section.cv a {
+    color: #7BA2B5;
+}
+/* 
+section.projects strong {
+    color: #444242;
+}
+ */
+section.projects dfn, section.cv dfn {
+    color: #5C5959;
+}
+section li, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+section.cv li, section.projects li {
+    padding-bottom: 5px;
+}
 header ul {
   list-style:none;
   height:40px;
@@ -138,25 +167,7 @@ header ul a {
   height:40px;
 }
 
-section.projects {
-    width: 400px;
-    font-weight: 100;
-    color: #999999;
-}
-section.projects a {
-    color: inherit;
-}
-section.projects strong {
-    color: #444242;
-}
-section.projects dfn {
-    color: #5C5959;
-}
-section.projects li, ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+
 
 strong {
   color:#222;
